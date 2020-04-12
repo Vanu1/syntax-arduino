@@ -5,3 +5,5 @@ Arduino programming language can be divided in three main parts:
 * Function
 * Variable and Constant
 * Structure
+
+![image os arduino board](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/arduino.jpg)
