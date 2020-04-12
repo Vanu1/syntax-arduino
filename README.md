@@ -8,5 +8,3 @@ this language can be divide into 3 main parts:
 
 * **structure**
 
-![image of arduino]
-(arduino.jpg)
