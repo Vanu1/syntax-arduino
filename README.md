@@ -6,7 +6,7 @@ Arduino programming language can be divided in three main parts:
 * Variable and Constant
 * Structure
 
-![image os arduino board](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/arduino.jpg)
+![image os arduino board](https://www.arduino.cc/en/uploads/Tutorial/inputPullupSerial_sch.png)
 ### Function:
 * #### Digital I/O:
   * **PinMode()**:-It specifies pin to behave either as `INPUT` or `OUTPUT`.It is possible to enable the internal pullup resistors with the mode `INPUT_PULLUP`.
@@ -43,7 +43,17 @@ Arduino programming language can be divided in three main parts:
 	 ```
 	 * **millis()**:-It returns the time paased since arduino began running the current program.**syntax**
 	 ```
-	 time=millis();
+	 time=millis()
 	 ```
+### Variables:
+* #### Data types:
+  * **char**:-stores characters 
+  * **float**:-stores floating point values 
+  * **int**:-stores intergers
+  * **string**:-stores string `" "`
+  * **array**:-stores array
+* #### Constants:
+  * **HIGH|LOW**
+  * **INPUT|OUTPUT|INPUT_PULLUP**:-
    
    
