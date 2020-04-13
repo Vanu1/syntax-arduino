@@ -1,6 +1,6 @@
 # syntax-arduino
 *Arduino is a great open-source electronics prototyping platform based on flexible easy-to-use hardware and software. It is basically a simplified microcontroller, in the sense that it uses a normal microcontroller and envelopes its internal functioning which may impede its functioning, but it gives us a very handy, easy to use tool.
-It syntax is simply **ESC101***
+It syntax is very similar to **ESC101***(C).
 Arduino programming language can be divided in three main parts:
 * Function
 * Variable and Constant
@@ -71,6 +71,15 @@ Arduino programming language can be divided in three main parts:
   }
   ```
 ##### *Basic code of led blinking*
+
+![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/2020-04-13.png)
+* #### Arithmetic Operator:
+  * **+**(addition)
+  * * (multiplication)
+  * **-**(substraction)
+  * **/**(division)
+  * **%** (remainder)
+  * **=** (assignment operator)
   
   
    
