@@ -54,6 +54,24 @@ Arduino programming language can be divided in three main parts:
   * **array**:-stores array
 * #### Constants:
   * **HIGH|LOW**
-  * **INPUT|OUTPUT|INPUT_PULLUP**:-
+  * **INPUT|OUTPUT|INPUT_PULLUP**
+  * **true|false**
+### Structure:
+* #### sketch:
+  * **setup()**:-The `setup()` function is used to initialize variables,pin modes,start using libraries etc. the setup function runs only once in a program.
+  ```
+  void setup(){
+  
+  }
+  ```
+  * **loop()**:-After creating `setup()` function,the loop functions run program consecutively and allow our program to change and respond
+  ```
+  void loop(){
+  
+  }
+  ```
+  *Basic code of led blinking*
+  
+  
    
    
