@@ -7,7 +7,7 @@ Arduino programming language can be divided in three main parts:
 * Structure
 
 ![image os arduino board](https://www.arduino.cc/en/uploads/Tutorial/inputPullupSerial_sch.png)
-### Function:
+## Function:
 * #### Digital I/O:
   * **PinMode()**:-It specifies pin to behave either as `INPUT` or `OUTPUT`.It is possible to enable the internal pullup resistors with the mode `INPUT_PULLUP`.
   **syntax**
@@ -45,7 +45,7 @@ Arduino programming language can be divided in three main parts:
 	 ```
 	 time=millis()
 	 ```
-### Variables:
+## Variables:
 * #### Data types:
   * **char**:-stores characters 
   * **float**:-stores floating point values 
@@ -56,7 +56,7 @@ Arduino programming language can be divided in three main parts:
   * **HIGH|LOW**
   * **INPUT|OUTPUT|INPUT_PULLUP**
   * **true|false**
-### Structure:
+## Structure:
 * #### sketch:
   * **setup()**:-The `setup()` function is used to initialize variables,pin modes,start using libraries etc. the setup function runs only once in a program.
   ```
@@ -70,16 +70,37 @@ Arduino programming language can be divided in three main parts:
   
   }
   ```
-##### *Basic code of led blinking*
+#### *Basic code of led blinking*
 
 ![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/2020-04-13.png)
 * #### Arithmetic Operator:
-  * **+**(addition)
-  * * (multiplication)
-  * **-**(substraction)
-  * **/**(division)
+  * **+** (addition)
+  *  * (multiplication)
+  * **-** (substraction)
+  * **/** (division)
   * **%** (remainder)
   * **=** (assignment operator)
+* #### Comparison Operator:
+  * **!=** (not equals to)
+  * **==** (equals to)
+  * **>** or **>=** (less than or less than equals to)
+  * **<** or **<=** (greater than or greater than equals to)
+* #### Control Structures(mostly used inside `void loop()`):
+  * **break**:-use to exit from loop (`for`,`while`,`do....while`).
+  * **continue**:-It skip the current iteration of loop (`for`,`while`,`do....while`).
+  * **if and else statements**:-use as conditionals.example
+  ```
+  if(condition 1){
+  // your code here
+  }
+  if else(condition 2){
+  // your code here  executes if condition 1 is false and condition 2 is true
+  }
+  else{
+  //your code here executes if condition 1 & 2 is false.
+  }
+  ```
+  
   
   
    
