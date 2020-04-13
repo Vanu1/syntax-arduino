@@ -32,7 +32,7 @@ Arduino programming language can be divided in three main parts:
    ```
    analogWrite(pin,value)
    ```
-   * **AnalogReference()**:-Configures the reference voltage used for analog input (the value used as the top of the input range).Type of reference to use is according to board and need use [link](https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/) here to get reference type.**syntax**
+   * **AnalogReference()**:-Configures the reference voltage used for analog input (the value used as the top of the input range).Type of reference to use is according to board and need. Use [link](https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/) here to get reference type.**syntax**
    ```
    analogReference(type)
    ```
