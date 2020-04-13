@@ -100,6 +100,8 @@ Arduino programming language can be divided in three main parts:
   //your code here executes if condition 1 & 2 is false.
   }
   ```
+  * **return**:-Terminates a functions and return value from it if it is called.`return ;`.
+  
   
   
   
