@@ -9,7 +9,19 @@ Arduino programming language can be divided in three main parts:
 * Variable and Constant
 * Structure
 
+
+##### Image of arduino UNO
+
+
 ![image uno arduino board](https://cdn.pixabay.com/photo/2017/03/23/12/32/arduino-2168193_960_720.png)
+
+
+##### Image of arduino nano
+
+
+![nano board](https://www.behind-the-scenes.co.za/wp-content/uploads/arduino-nano-v3-basic-pinout.jpg)
+
+
 ## Function:
 * #### Digital I/O:
   * **PinMode()**:-It specifies pin to behave either as `INPUT` or `OUTPUT`.It is possible to enable the internal pullup resistors with the mode `INPUT_PULLUP`.
