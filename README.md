@@ -56,7 +56,7 @@ Arduino programming language can be divided in three main parts:
 	 ```
 	 delay(time)
 	 ```
-	 * **millis()**:-It returns the time paased since arduino began running the current program.**syntax**
+   * **millis()**:-It returns the time paased since arduino began running the current program.**syntax**
 	 ```
 	 time=millis()
 	 ```
@@ -100,7 +100,7 @@ Arduino programming language can be divided in three main parts:
   * **==** (equals to)
   * **>** or **>=** (less than or less than equals to)
   * **<** or **<=** (greater than or greater than equals to)
-* #### Control Structures(mostly used inside `void loop()`):
+* #### Control Structures :
   * **break**:-use to exit from loop (`for`,`while`,`do....while`).
   * **continue**:-It skip the current iteration of loop (`for`,`while`,`do....while`).
   * **if and else statements**:-use as conditionals.example
@@ -116,6 +116,9 @@ Arduino programming language can be divided in three main parts:
   }
   ```
   * **return**:-Terminates a functions and return value from it if it is called.`return ;`.
+  
+  
+**for any doubts in above article  please refer [click here](https://www.arduino.cc/reference/en/)** 
   
   
   
