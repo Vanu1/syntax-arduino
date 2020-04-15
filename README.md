@@ -72,38 +72,38 @@ Arduino programming language can be divided in three main parts:
   * **PinMode()**:-It specifies pin to behave either as `INPUT` or `OUTPUT`.It is possible to enable the internal pullup resistors with the mode `INPUT_PULLUP`.
   
   ```
-  pinMode(pin,mode)
+  pinMode(pin,mode);
   ```
   * **DigitalRead()**:-It reads the pin either as `HIGH` or `LOW`.
   
   ```
-  digitalRead(pin)
+  digitalRead(pin);
   ```
   * **DigitalWrite()**:-Assign value either as `HIGH` or `LOW`.
   ```
-  digitalWrite(pin,value)
+  digitalWrite(pin,value);
   ```
  * #### Analog I/O:
    * **AnalogRead()**:-Read value from specified analog pin and Arduino boards contain 10-bit analog to digital converter. This means that it  will map input voltages between 0 and the 5 into integer values between 0 and 1023 and returns it.
    ```
-   analogRead(pin)
+   analogRead(pin);  
    ```
    * **AnalogWrite()**:-Assign value b/w 0 to 255 (*duty cycle*) to analog pin.
    ```
-   analogWrite(pin,value)
+   analogWrite(pin,value);
    ```
    * **AnalogReference()**:-Configures the reference voltage used for analog input (the value used as the top of the input range).Type of reference to use is according to board and need. Use [link](https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/) here to get reference type.
    ```
-   analogReference(type)
+   analogReference(type);
    ```
  * #### Other Important Functions:
    * **delay()**:-Pauses the program for the amount of time(*ms*).
 	 ```
-	 delay(time)
+	 delay(time);
 	 ```
    * **millis()**:-It returns the time paased since arduino began running the current program.
 	 ```
-	 time=millis()
+	 time=millis();
 	 ```
 ## Variables & Constants :
 * #### Data types:
