@@ -13,7 +13,7 @@ Arduino programming language can be divided in three main parts:
 ##### Image of arduino UNO
 
 
-![image uno arduino board](https://cdn.pixabay.com/photo/2017/03/23/12/32/arduino-2168193_960_720.png)
+![image uno arduino board](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/arduino3.png)
 
 
 ##### Image of arduino nano
