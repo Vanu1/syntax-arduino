@@ -13,13 +13,13 @@ Arduino programming language can be divided in three main parts:
 ##### Image of arduino UNO
 
 
-![image uno arduino board](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/arduino3.png)
+![image uno arduino board](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/arduino3.png) ![nano board](https://www.behind-the-scenes.co.za/wp-content/uploads/arduino-nano-v3-basic-pinout.jpg)
 
 
 ##### Image of arduino nano
 
 
-![nano board](https://www.behind-the-scenes.co.za/wp-content/uploads/arduino-nano-v3-basic-pinout.jpg)
+<!--![nano board](https://www.behind-the-scenes.co.za/wp-content/uploads/arduino-nano-v3-basic-pinout.jpg)-->
 
 
 ## Structure:
