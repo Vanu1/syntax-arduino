@@ -65,6 +65,24 @@ Arduino programming language can be divided in three main parts:
   }
   ```
   * **return**:-Terminates a functions and return value from it if it is called.`return ;`.
+
+
+## Variables & Constants :
+* #### Data types:
+  * **char**:-stores characters 
+  * **float**:-stores floating point values 
+  * **int**:-stores intergers
+  * **string**:-stores string `" "`
+  
+* #### Constants:
+  * **HIGH**
+  * **LOW**
+  * **INPUT**
+  * **OUTPUT**
+  * **INPUT_PULLUP**
+  * **true**
+  * **false**
+  
   
   
 ## Function:
@@ -105,21 +123,8 @@ Arduino programming language can be divided in three main parts:
 	 ```
 	 time=millis();
 	 ```
-## Variables & Constants :
-* #### Data types:
-  * **char**:-stores characters 
-  * **float**:-stores floating point values 
-  * **int**:-stores intergers
-  * **string**:-stores string `" "`
-  
-* #### Constants:
-  * **HIGH**
-  * **LOW**
-  * **INPUT**
-  * **OUTPUT**
-  * **INPUT_PULLUP**
-  * **true**
-  * **false**
+
+
 
 #### *Basic code of led blinking*
 
