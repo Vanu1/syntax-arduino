@@ -10,7 +10,7 @@ Arduino programming language can be divided in three main parts:
 * Structure
 
 
-##### ARDUINO "UNO" &nbsp; &nbsp; ARDUINO "NANO"
+### ARDUINO "UNO" BOARD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ARDUINO "NANO" BOARD
 
 
 ![image uno arduino board](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/arduino3.png) ![nano board](https://www.behind-the-scenes.co.za/wp-content/uploads/arduino-nano-v3-basic-pinout.jpg)
@@ -118,20 +118,27 @@ Arduino programming language can be divided in three main parts:
 	 ```
 	 delay(time);
 	 ```
-   * **millis()**:-It returns the time passed since arduino began running the current program.Advantage of millis() over delay() function is that it doesn't stop the execution of program. 
+   * **millis()**:-It returns the time passed since arduino began running the current program.Advantage of millis() over delay()          	function is that it doesn't stop the execution of program for some time interval.
 	 ```
 	 time=millis();
 	 ```
 
 
 
-#### *Basic code of led blinking*
-
+### *Basic code of led blinking*
+#### **Using delay function**
 ![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/2020-04-13.png)
 
+
+
+
+
+
+#### **Now using millis function**
+![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/capture3.PNG)
   
   
-**for any doubts in above article  please refer [click here](https://www.arduino.cc/reference/en/)** 
+**Citation of above Article-:  [click here](https://www.arduino.cc/reference/en/)** 
   
   
   
