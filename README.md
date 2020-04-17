@@ -10,13 +10,12 @@ Arduino programming language can be divided in three main parts:
 * Structure
 
 
-##### Image of arduino UNO
+##### ARDUINO "UNO" &nbsp; &nbsp; ARDUINO "NANO"
 
 
 ![image uno arduino board](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/arduino3.png) ![nano board](https://www.behind-the-scenes.co.za/wp-content/uploads/arduino-nano-v3-basic-pinout.jpg)
 
-
-##### Image of arduino nano
+ 
 
 
 <!--![nano board](https://www.behind-the-scenes.co.za/wp-content/uploads/arduino-nano-v3-basic-pinout.jpg)-->
@@ -119,7 +118,7 @@ Arduino programming language can be divided in three main parts:
 	 ```
 	 delay(time);
 	 ```
-   * **millis()**:-It returns the time paased since arduino began running the current program.
+   * **millis()**:-It returns the time passed since arduino began running the current program.Advantage of millis() over delay() function is that it doesn't stop the execution of program. 
 	 ```
 	 time=millis();
 	 ```
