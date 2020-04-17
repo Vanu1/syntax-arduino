@@ -118,24 +118,19 @@ Arduino programming language can be divided in three main parts:
 	 ```
 	 delay(time);
 	 ```
+	 **Using delay() function** *Code for Led blinking*.
+	 ![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/2020-04-13.png)
+	 
+	 
    * **millis()**:-It returns the time passed since arduino began running the current program.Advantage of millis() over delay()          	function is that it doesn't stop the execution of program for some time interval.
 	 ```
 	 time=millis();
 	 ```
+	 **Using millis() function** *Code for Led blinking*.
+       ![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/2020-04-13.png)
 
 
 
-### *Basic code of led blinking*
-#### **Using delay function**
-![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/2020-04-13.png)
-
-
-
-
-
-
-#### **Now using millis function**
-![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/capture3.PNG)
   
   
 **Citation of above Article-:  [click here](https://www.arduino.cc/reference/en/)** 
