@@ -127,7 +127,7 @@ Arduino programming language can be divided in three main parts:
 	 time=millis();
 	 ```
 	 **Using millis() function** *Code for Led blinking*.
-       ![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/2020-04-13.png)
+       ![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/capture3.PNG)
 
 
 
