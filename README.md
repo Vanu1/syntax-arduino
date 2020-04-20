@@ -1,8 +1,10 @@
 # SYNTAX-ARDUINO
 Arduino is a great open-source electronics prototyping platform based on flexible easy-to-use hardware and software. It is basically a simplified microcontroller, in the sense that it uses a normal microcontroller and envelopes its internal functioning which may impede its functioning, but it gives us a very handy, easy to use tool.
 It is basic version of **C**
-
-
+## INDEX
+1. [Structure](#struct)
+2. [Constants and Variables](#variable)
+3. [Functions](#func)
 
 Arduino programming language can be divided in three main parts:
 * Function
@@ -20,7 +22,7 @@ Arduino programming language can be divided in three main parts:
 
 <!--![nano board](https://www.behind-the-scenes.co.za/wp-content/uploads/arduino-nano-v3-basic-pinout.jpg)-->
 
-
+<a name="struct"></a>
 ## Structure:
 * #### sketch:
   * **setup()**:-The `setup()` function is used to initialize variables,pin modes,start using libraries etc. the setup function runs only once in a program.
@@ -65,7 +67,7 @@ Arduino programming language can be divided in three main parts:
   ```
   * **return**:-Terminates a functions and return value from it if it is called.`return ;`.
 
-
+<a name="variable"></a>
 ## Variables & Constants :
 * #### Data types:
   * **char**:-stores characters 
@@ -83,7 +85,7 @@ Arduino programming language can be divided in three main parts:
   * **false**
   
   
-  
+<a name="func"></a>  
 ## Function:
 * #### Digital I/O:
   * **PinMode()**:-It specifies pin to behave either as `INPUT` or `OUTPUT`.It is possible to enable the internal pullup resistors with the mode `INPUT_PULLUP`.
