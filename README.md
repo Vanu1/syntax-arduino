@@ -2,14 +2,10 @@
 Arduino is a great open-source electronics prototyping platform based on flexible easy-to-use hardware and software. It is basically a simplified microcontroller, in the sense that it uses a normal microcontroller and envelopes its internal functioning which may impede its functioning, but it gives us a very handy, easy to use tool.
 It is basic version of **C**
 ## INDEX
-1. [Structure](#struct)
-2. [Constants and Variables](#variable)
-3. [Functions](#func)
-
-Arduino programming language can be divided in three main parts:
-* Function
-* Variable and Constant
-* Structure
+#### 1. [Structure](#struct)
+#### 2. [Constants and Variables](#variable)
+#### 3. [Functions](#func)
+#### 4. [Citation](#sex)
 
 
 ### 1. ARDUINO "UNO" BOARD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2. ARDUINO "NANO" BOARD
@@ -174,7 +170,7 @@ Arduino programming language can be divided in three main parts:
 
 
   
-  
+  <a name="sex"></a>
 ## **For More Information Visit Here-:  [[click here]](https://www.arduino.cc/reference/en/)** 
   
   
