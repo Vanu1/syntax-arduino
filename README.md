@@ -119,7 +119,7 @@ Arduino programming language can be divided in three main parts:
 	 delay(time);
 	 ```
 	 **Using delay() function** *Code for Led blinking*.
-	 ![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/2020-04-13.png)
+	 <!--![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/2020-04-13.png)-->
 	 
 	 
    * **millis()**:-It returns the time passed since arduino began running the current program.Advantage of millis() over delay()          	function is that it doesn't stop the execution of program for some time interval.
@@ -127,13 +127,39 @@ Arduino programming language can be divided in three main parts:
 	 time=millis();
 	 ```
 	 **Using millis() function** *Code for Led blinking*.
-       ![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/capture3.PNG)
+       <!--![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/capture3.PNG)-->
+       ```c
+       int led_pin=2 ;
+       long previous_time=0;// for updating further in loop initialize it with 0
+       int interval=1000; // time interval b/w led_state high to low
+       int led_state=HIGH;//initial state of digital pin
+       
+       void setup(){
+       pinMode(led_pin,OUTPUT);
+       }
+      
+       void loop(){
+       long current_time=millis(); // storing time in this variable
+       if(current_time - previous_time >= 1000){
+       	    previous_time=current_time;           //update variable to maintain led state high or low for certain interval
+	    
+	    if(led_state==HIGH){                //simply toogle led_state
+	    	led_state==LOW;
+	    }
+	    else{
+	    	led_state==HIGH;
+	    }
+      }
+      digitalWrite(led_pin,led_state);       //assign led_state to digitalpin
+      }    
+	    
+	    
 
 
 
   
   
-## **Citation of above Article-:  [[click here]](https://www.arduino.cc/reference/en/)** 
+## **For More Information Visit Here-:  [[click here]](https://www.arduino.cc/reference/en/)** 
   
   
   
