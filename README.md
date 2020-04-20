@@ -120,6 +120,20 @@ Arduino programming language can be divided in three main parts:
 	 ```
 	 **Using delay() function** *Code for Led blinking*.
 	 <!--![](https://raw.githubusercontent.com/Vanu1/syntax-arduino/master/2020-04-13.png)-->
+	 ```c
+	 void setup(){
+	 	//put your code here to run it once
+	 pinMode(2,OUTPUT); // declaring my digital pin 2 as output
+	 }
+	 void loop(){
+	 	// put your code here, to run repeatedly
+	 digitalWrite(2,HIGH); //assigning high  to pin
+	 delay(1000); // add time delay of 1000 ms it means that programs completely stop and wait for that time interval
+	 digitalWrite(2,LOW); // assigning low to pin
+	 delay(1000);
+	 }
+	 ```
+	  
 	 
 	 
    * **millis()**:-It returns the time passed since arduino began running the current program.Advantage of millis() over delay()          	function is that it doesn't stop the execution of program for some time interval.
